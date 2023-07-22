@@ -1,3 +1,5 @@
+// i am using this tutorial: https://www.youtube.com/watch?v=GoXwIVyNvX0
+
 package tutorial_02;
 //import java.util.Scanner;
 //import java.util.Set;
