@@ -10,10 +10,12 @@ public class Cat extends Dog {  // dog is super class/parent class and cat is su
 
     public Cat(String name, int age) {
         super(name, age);
+        this.food = 50;
     }
 
     public Cat(String name) {
         super(name, 0);
+        this.food = 50;
     }
 
     public void speak() {

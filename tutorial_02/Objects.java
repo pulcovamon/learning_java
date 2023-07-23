@@ -22,6 +22,54 @@ public class Objects {
 
         Cat bob = new Cat("Bob");
         bob.speak();
+
+        System.out.println(Dog.count);
+
+        Student joe = new Student("Joe");
+        Student bill = new Student("Joe");
+
+        System.out.println(joe.equals(bill));
+        System.out.println(joe);
+
+        OuterClass out = new OuterClass();
+        out.inner();
+        OuterClass.InnerClass in = out.new InnerClass();
+        in.display();
+        out.inner2();
+
+        Car ford = new Car();
+        ford.speedUp(10);
+        ford.changeGear(2);
+        ford.display();
+
+        int x = Vehicle.math(5);
+        System.out.print(x);
+
+        int difference = Math.diff(5, 3);
+        System.out.println(difference);
+        Level[] arr = Level.values();
+
+        Level lvl = Level.LOW;
+        String en = lvl.toString();
+        System.out.println(en);
+
+        if (lvl == Level.LOW) {
+            System.out.println(lvl);
+        } else if (lvl == Level.MEDIUM) {
+            System.out.println(lvl);
+        } else {
+            System.out.println(lvl);
+        }
+
+        for (Level e : arr) {
+            System.out.println(e);
+        }
+
+        System.out.println(lvl.getLevel());
+        System.out.println(Level.valueOf("LOW"));
+
+        lvl.setLevel(5);
+        System.out.println(lvl.getLevel());
     }
 
     public static void hello_world() {
